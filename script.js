@@ -40,7 +40,7 @@ function btnCopiar() {
     const mensaje = document.querySelector(".mensaje");
     mensaje.select();
     mensaje.setSelectionRange(0, 99999); 
-    document.execCommand("copy");
+   // document.execCommand("copy");
 }
 
 
